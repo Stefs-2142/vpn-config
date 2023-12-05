@@ -1,7 +1,7 @@
 {
     "inbounds": [
         {
-            "port": 10086,
+            "port": 1010,
             "protocol": "vmess",
             "settings": {
                 "clients": [
@@ -9,6 +9,14 @@
                         "id": "99a8a7fe-6de7-470a-85f2-ced1a7dcfce2"
                     }
                 ]
+            }
+        },
+        {
+            "port": 1080,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "userLevel": 0
             }
         }
     ],
